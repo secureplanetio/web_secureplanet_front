@@ -1,0 +1,7 @@
+@font-face{
+	font-family:'NanumSquare Regular';
+	src:local("☺")
+		,url('../fonts/NanumSquareRegular.ttf') format('truetype')
+		,url('../fonts/NanumSquareExtraBold.ttf') format('truetype')
+	    ,url('../fonts/NanumSquareBold.ttf') format('truetype');
+}

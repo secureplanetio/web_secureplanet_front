@@ -1,0 +1,158 @@
+header {
+    box-shadow: 0px 2px 2px 0 rgba(105, 105, 105, 0.6);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: white;
+    z-index: 999;
+    padding: 10px;
+}
+
+.logoWrapper {
+    min-width: 50%;
+    float: left;
+    padding-left: 3%;
+}
+.logoWrapper img{
+    float: left;
+    margin-top: 5px;
+    max-width: 12%;
+    height: 42px;
+}
+.logoWrapper .productName{
+    color: #252525;
+    font-size: 1.5em;
+    line-height: 1em;
+    font-family: 'Open Sans Regular'!important;
+    font-weight: bold;
+    float: left;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.logoWrapper .companyName {
+    font-weight: bold;
+    white-space: nowrap;
+    color: #383838;
+    font-size: 1em;
+    font-family: 'Open Sans Regular'!important;
+    line-height: 1.8em;
+    float: left;
+    margin-left: 7px;
+}
+
+.header-menu {
+	min-width: 7%;
+    float: right;
+    font-family: 'Open Sans Regular'!important;
+}
+.header-menu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.header-menu ul li {
+    position: relative;
+}
+
+.header-menu ul li ul.subMenu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 2px 0 rgba(143, 143, 143, 0.6);
+    min-width: 160px;
+    margin: 0;
+    padding: 0;
+}
+.header-menu ul li ul.subMenu {
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #595858;
+    padding: 0;
+}
+.header-menu ul li:hover ul.subMenu {
+    display: block;
+}
+
+.header-menu ul li a {
+    font-size: 0.875em;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    color: #333333;
+    margin: 8px 1em 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid transparent;
+}
+.header-menu ul li a.active {
+    border-bottom: 2px solid  #ef4136;
+}
+.header-menu ul li ul li {
+    padding:0;
+    margin: 0;
+}
+.header-menu ul li ul li a {
+    display: block;
+    padding:0 9px 0 9px;
+    margin: 0;
+    line-height: 33px;
+}
+.header-menu ul li ul li a:hover {
+    background: #e7e7e7;
+}
+
+
+.header-menu ul li ul.subMenu li {
+    display: block
+}
+
+.header-menu ul li.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-menu ul li.user .subMenu{
+    top:22px;
+    left: 0px;
+}
+
+header .user-pic-wrap{
+    border: 1px solid gray;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    margin-top: -3px;
+    margin-right: 10px;
+    position: relative;
+}
+
+header .user-pic {
+    position: absolute;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+}
+
+/* @media (min-width:768px) {
+    .logoWrapper a {
+        margin-left: 54px;
+        width: 300px;
+        margin-right: 5px;
+    }
+    .logoWrapper .companyName {
+        font-size: .875em;
+    }
+    .header-menu {
+        width: 60%;
+    }
+    .header-menu ul li a {
+        margin: 8px 1.75em 0;
+    }
+} */

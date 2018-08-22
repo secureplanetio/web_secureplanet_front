@@ -1,0 +1,68 @@
+@value colors: '../../styles/variables/color-variables.css';
+@value color-silver-chalice from colors;
+
+:root {
+  --inactive-color: color-silver-chalice;
+}
+
+.showresult {
+  font-family: 'Open Sans Regular'!important;
+}
+
+.showresult .button-container .btn {
+  font-family: 'Open Sans Regular'!important;
+}
+
+.showresult .chart-row {
+  width: 80%;
+  display: block;
+}
+
+.showresult .chart-row .chart-column {
+  height: 300px;
+  width : 800px;
+  position: relative;
+  padding-left: 34%;
+}
+
+
+.showresult .row .column .riskDetail { 
+  position: relative;
+}
+
+.riskDetail .griddle-page-select {
+  width: auto;
+  margin: 0 10px;
+}
+
+.riskDetail .first-column {
+  width: 6%;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.riskDetail .second-column {
+ width: 4%;
+}
+.riskDetail .third-column {
+ width: auto;
+ text-align: left;
+ word-break: keep-all;
+}
+.itemPerPage{
+	font-size: 0.8em;
+    position: absolute;
+    left: 400px;
+    bottom: 30px;
+}
+
+.itemsPerPage{
+  margin-left: 20px;
+  color: #202f52;
+  font-size: 15px;
+}
+
+.itemsPerPage select{
+  width: 70px;
+  margin-left: 10px;
+}

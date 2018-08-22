@@ -1,0 +1,116 @@
+.DemoVerifyDetail {
+  font-family: 'Open Sans Regular'!important;
+}
+.DemoVerifyDetail .item_img_l {
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+  }
+  
+  .DemoVerifyDetail .item_img_r {
+    float:left;
+    width: 49%;
+  }
+
+  .DemoVerifyDetail .item_img_l p {
+    text-align: right;
+  }
+  .DemoVerifyDetail .item_img_r p {
+    text-align: left;
+  }
+
+  .DemoVerifyDetail .acceptimg {
+    cursor: pointer;
+    width: 3%;
+    height: 3%;
+    object-fit: contain;
+    margin-left: 95%;
+  }
+
+  .DemoVerifyDetail .blockimg {
+    cursor: pointer;
+    width: 3%;
+    height: 3%;
+    object-fit: contain;
+    margin-left: 2%;
+  }
+
+.DemoVerifyDetail .inputText .inputText--lg {
+    font-family: 'Open Sans Regular'!important;
+    border-width: 0px!important;
+    width: 296px;
+    height: 29px;
+    transition: all 0.5s;
+  }
+
+  .DemoVerifyDetail textarea {
+    font-family: 'Open Sans Regular'!important;
+    width: 500px;
+    height : 100px;
+    border-radius: 0px;
+    transition: all 0.5s;
+    resize: none;
+  }
+
+  .DemoVerifyDetail textarea:focus {
+    font-family: 'Open Sans Regular'!important;
+    width: 500px;
+    height : 100px;
+    border-radius: 0px;
+    transition: all 0.5s;
+    resize: none;
+  }
+ 
+  .DemoVerifyDetail .container {
+    padding: 32px 31rem;
+    text-align: center;
+    max-width: 130rem;
+  }
+
+  .DemoVerifyDetail input {
+    margin-bottom : 0px !important;
+    border-width: 0px !important;
+  }
+  
+  .DemoVerifyDetail .btn.saveCompany {
+    font-family: 'Open Sans Regular'!important;
+    background-color: #4472C4;
+    font-size:16px;
+    width: 175px;
+  }
+  .DemoVerifyDetail ul {
+    text-decoration: underline;
+    font-size: 13.3px;
+    width: 500px;
+    text-align: left;
+  }
+  .DemoVerifyDetail .imagewrapper {
+    width: 33.33333333333333%;
+    max-width: 410px;
+    margin-left: 46%;
+  }
+  .DemoVerifyDetail .imageL{
+    width: auto;
+    height: auto;
+    max-width: 32px;
+    max-height: 48px;
+    object-fit: cover;
+    margin-left: 25px;
+  }
+
+  .DemoVerifyDetail .imageR{
+    width: auto;
+    height: auto;
+    max-width: 32px;
+    max-height: 48px;
+    object-fit: cover;
+    margin-left: 20px;
+  }
+  .DemoVerifyDetail .imglabel {
+    text-align: left;
+    font-size: 14px;
+  }
+  .DemoVerifyDetail .imglabel {
+    text-align: left;
+    font-size: 14px;
+  }

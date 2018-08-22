@@ -1,0 +1,30 @@
+.progressbar {
+    position: fixed;
+    width: 100%;
+    top: 67px;
+    left: 0;
+    display: none;
+    z-index: 99;
+}
+.progressbar.show-bar {
+    display: block;
+}
+.progressbar .bar {
+    height: 27px;
+    background-color: rgba(239, 65, 54, 0.6);
+}
+
+.progressbar .bar .progress {
+    background-color: rgba(239, 65, 54, 1);
+    height: 27px;
+    transition: width 1s;
+    width:10%;
+}
+
+.progressbar .bar .progress .msg {
+    color:#fff;
+    position: absolute;
+    margin: 0 0 0 10px;
+    font-size: 14px;
+    line-height: 27px;
+}

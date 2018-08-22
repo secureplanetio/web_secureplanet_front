@@ -1,0 +1,105 @@
+@value color-pomegranate from '../../styles/variables/color-variables.css';
+
+:root {
+  --color-error: color-pomegranate;
+}
+.security {
+  font-family: 'Open Sans Regular'!important;
+  width: 43%;
+  text-align: center;
+  margin: 100px auto 50px auto;
+  padding: 40px;
+}
+
+.security h3 {
+  text-align: center;
+  font-size: 2.0em;
+  margin-bottom: 24px;
+}
+.security .security-form {
+  margin:0;
+  padding:0;
+  border:0;
+  vertical-align: baseline;
+  text-align: center;
+  
+}
+.security .form-row-l {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+  margin-top: 3%;
+}
+
+.security .form-row-r {
+  float:left;
+  width: 48%;
+  margin-top: 3%;
+}
+.security label {
+  font-size: 15px;
+  color: rgb(90, 90, 90);
+  margin: 6px 0px;
+  letter-spacing: 1px;
+}
+
+.security-form .error.show {
+  text-align: center;
+  position: static;
+}
+
+
+.security input {
+  padding: 18px 15px;
+  width: 80%;
+  margin-bottom: 25px;
+  -webkit-appearance: none;
+  font-family: 'Open Sans Regular'!important;
+}
+
+.security .button-wrapper {
+  text-align: center;
+}
+.security .button-wrapper .btn {
+  font-family: 'Open Sans Regular'!important;
+  font-size: 14px;
+  padding: 0.2em 3em;
+  margin-top: 13%;
+}
+
+.security .title span {
+  margin-bottom: 10px;
+}
+
+.security input[type=email]:focus, .login input[type=password]:focus{
+        border-color: rgb(196, 196, 196);
+}
+
+.security .remember-me {
+  font-size: 10px;
+  color: rgb(149, 149, 149);
+  font-weight: 400
+}
+
+
+.security .loader {
+  overflow: visible;
+  padding-top: 14%;
+}
+.security .button-wrapper p {
+  font-size: 12px;
+}
+.security .button-wrapper a {
+  font-size: 12px;
+  color: var(--color-error);
+  font-weight: 700;
+}
+.security .form-row {
+  position: relative
+}
+.security .forgot-pass {
+  font-size: 8px;
+  color: rgb(149, 149, 149);
+  text-decoration: underline;
+  float: right;
+}

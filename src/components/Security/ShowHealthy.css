@@ -1,0 +1,23 @@
+.showhealthy {
+  font-family: 'Open Sans Regular'!important;
+}
+
+.showhealthy img {
+  width: 16%;
+  margin-left: 42%;
+}
+
+.showhealthy .text {
+  font-size: 37px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.showhealthy .button-container {
+  margin-top: 7%;
+}
+
+.security .button-wrapper .btn {
+  font-family: 'Open Sans Regular'!important;
+  font-size: 12px;
+}

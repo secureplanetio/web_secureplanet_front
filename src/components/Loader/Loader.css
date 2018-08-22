@@ -1,0 +1,40 @@
+@value color-darkblue from '../../styles/variables/color-variables.css';
+
+:root {
+  --color-loader: color-darkblue;
+  --color-loader-secondary: rgba(83, 195, 244, 0.2);
+}
+
+.loader {
+  overflow: hidden;
+
+  &__content,
+  &__content::after {
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+  }
+
+  &__content {
+    position: relative;
+    margin: 60px auto;
+    font-size: 15px;
+    text-indent: -9999em;
+    border-top: 1.1em solid var(--color-loader-secondary);
+    border-right: 1.1em solid var(--color-loader-secondary);
+    border-bottom: 1.1em solid var(--color-loader-secondary);
+    border-left: 1.1em solid var(--color-loader);
+    animation: load8 1.1s infinite linear;
+    transform: translateZ(0);
+  }
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

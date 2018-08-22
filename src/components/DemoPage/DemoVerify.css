@@ -1,0 +1,38 @@
+.DemoVerify {
+    font-family: 'Open Sans Regular'!important;
+}
+
+.DemoVerify .griddle-page-select {
+    display: none;
+}
+
+.DemoVerify .col-1 {
+
+}
+.DemoVerify .col-2 {
+
+}
+.DemoVerify .col-3 {
+
+}
+.DemoVerify .col-4 {
+
+}
+.DemoVerify .col-5 {
+
+}
+
+.DemoVerify .griddle-table .spv-id {
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.verifyList .btn .margin-medium {
+    display: none;
+    font-family: 'Open Sans Regular'!important;
+    background-color: #4472C4;
+    font-size:16px;
+    width: 175px;
+}

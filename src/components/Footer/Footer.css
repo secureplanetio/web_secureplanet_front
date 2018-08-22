@@ -1,0 +1,51 @@
+footer {
+     position: fixed;
+     width: 100%;
+     bottom: 0;
+     padding: 5px;
+     font-size: 14px;
+     font-weight: 300;
+     text-align: center;
+     color: #5d5d5d;
+     border-top: 1px solid gainsboro;
+     background-color: #fdfdfd;
+     z-index: 2;
+
+     & a {
+       color: #5d5d5d;
+       &:hover{
+       	   font-weight: bold;
+           color: black;
+       }
+     }
+
+     & em {
+       font-style: normal;
+       padding: 0 10px;
+       color: #b9b9b9;
+     }
+     
+     & img {
+         height: 24px;
+         float: left;
+     }
+}
+.paddingFooter {
+    height: 54px;
+}
+
+.footerWrapper {
+    font-family: 'Open Sans Regular'!important;
+    font-weight: bold;
+    color: #252525;
+    width: 100%;
+}
+.footerYear {
+    float: left;
+    padding-left: 45%;
+    font-size: 14px; 
+}
+
+.footerName {
+    float: left;
+}

@@ -1,0 +1,81 @@
+
+table {
+    color: #231f20;
+    text-align: center;
+}
+table thead {
+    font-size: 12px;
+}
+
+table tr {
+  font-size: 14px;
+}
+table td {
+    padding: 8px 0;
+}
+table td, table th {
+    text-align: center
+}
+table tr a {
+    color: #231f20;
+}
+table tr a:hover {
+    color: #231f20;
+    text-decoration: underline;
+}
+
+table td:last-child,
+table td:first-child,
+table th:first-child,
+table th:last-child {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+table .checkbox:checked + label,
+table .checkbox:not(:checked) + label
+{
+    position: relative;
+    padding-left: 23px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+table .checkbox:checked + label:before,
+table .checkbox:not(:checked) + label:before
+{
+    top: -12px;
+}
+table .checkbox:checked + label:after,
+table .checkbox:not(:checked) + label:after
+{
+    top: -12px;
+}
+
+
+.griddle-footer > div {
+    display: flex;
+}
+.griddle-footer .griddle-page {
+    margin: 0 0.5em;
+}
+.griddle-footer select {
+    height: 38px;
+    width: initial;
+}
+.griddle-footer select:focus {
+    border-color: #111;
+}
+.griddle-footer .button , .griddle-footer button {
+    color: #111;
+    background-color: #dedede;
+    border: 0.1rem solid #dedede;
+}
+
+.center-full-container {
+  padding-top: 100px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}

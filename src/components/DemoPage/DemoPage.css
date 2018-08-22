@@ -1,0 +1,39 @@
+.DemoPage {
+    font-family: 'Open Sans Regular'!important;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 13%;
+}
+
+.DemoPage .col {
+    position: relative;
+    width: 50%;
+    margin-top: 20%;
+}
+.DemoPage .button-container-left {
+    width :400px;
+    height :60px;
+    border-radius: 7px;
+    background-color: #4472C4;
+    border-radius: 7px;
+    border: 1px solid #4472c4;
+    text-align: center;
+}
+
+.DemoPage .button-container-left a {
+    color: #fff;
+    font-size: 25px;
+}
+.DemoPage .button-container-right {
+    width :400px;
+    height :60px;
+    border-radius: 7px;
+    background-color: #fff;
+    border-radius: 7px;
+    border: 1px solid #4472c4;
+    text-align: center;
+}
+.DemoPage .button-container-right a {
+    color: #4472C4;
+    font-size: 25px;
+} 

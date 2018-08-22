@@ -1,0 +1,24 @@
+@import 'font-oss.css';
+@import 'font-nanum.css';
+@import 'milligram.css';
+@import 'form.css';
+@import 'modal.css';
+@import 'table.css';
+@import 'helpers.css';
+@import 'buttons.css';
+
+body {
+  overflow-y: scroll;
+  margin: 0;
+  padding-top: 67px;
+  font-family: 'Source Sans Pro';
+}
+
+/* update */
+.settings-collapse .rc-collapse > .rc-collapse-item .rc-collapse-header {
+	background-color: #fff!important;
+	cursor: default!important;
+}
+.rc-collapse-content{
+	display: none!important;
+}

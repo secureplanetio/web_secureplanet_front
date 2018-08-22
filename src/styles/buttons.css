@@ -1,0 +1,46 @@
+
+.btn,
+.btn:focus {
+    border-radius: 2px;
+    background-color: #073D7B;
+    font-size: 11px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 24px;
+    margin: 0;
+    height: auto;
+    transition: background .25s ease-in-out;
+   -moz-transition: background .25s ease-in-out;
+   -webkit-transition: background .25s ease-in-out;
+   border: 0;
+   padding: 0.5em 1em;
+}
+
+.btn.lkfu,
+.btn.lkfu:focus {
+	background-color: #56b346;
+	display: inline-block;
+	font-weight: 700;
+	cursor: pointer;
+	font-family: 'Open Sans Regular'!important;
+  letter-spacing: 0.5px;
+}
+
+.btn.lkfu:hover {
+	background-color: #6fca5f;
+}
+
+.margin-medium {
+    margin: 0px 5px;
+}
+
+.btn:hover {
+    background-color: #2B9BC4;
+    color: #ffffff;
+}
+
+.button-container{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}

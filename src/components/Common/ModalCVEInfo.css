@@ -1,0 +1,107 @@
+.modal.modalCVEInfo{
+  max-width: 850px;
+  width: 90%;
+  max-height: 70%;
+  top: 55%;
+  font-family: 'NanumSquare Regular'!important;
+}
+
+.modal.modalCVEInfo .title{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  margin-bottom: 0;
+  padding: 10px;
+  font-family: 'NanumSquare Regular'!important;
+}
+
+.modal.modalCVEInfo .modalContent{
+  padding: 0 10px;
+  height: 400px;
+  overflow-y: auto;
+  font-family: 'NanumSquare Regular'!important;
+}
+
+.modal.modalCVEInfo .modalContent .label{
+  font-weight: bold;
+  font-family: 'NanumSquare Regular'!important;
+  margin: 0 5px 0 0;
+  color: #2f2f2f;
+}
+
+.modal.modalCVEInfo .modalContent .description{
+  background-color: #cacaca;
+  color: #484747;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 16px;
+  text-indent: 5px;
+  float: left;
+  margin-bottom: 13px;
+  line-height: 21px;
+}
+
+.modal.modalCVEInfo .modalContent .cveItem{
+  float: left;
+  width: 50%;
+}
+
+.modal.modalCVEInfo .modalContent .cveItemW{
+  float: left;
+  width: 100%;
+}
+.modal.modalCVEInfo .modalContent .cveItemW.references{
+  margin-top: 10px;
+}
+.modal.modalCVEInfo .modalContent .cveItem .value{
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.modal.modalCVEInfo table{
+  width: 100%;
+  display: inline-block;
+  max-height: 80%;
+}
+
+.modal.modalCVEInfo table thead tr{
+  background-color: #424242;
+  color: white;
+}
+.modal.modalCVEInfo table tbody tr:nth-child(odd){
+  background-color: #e0e0e0;
+}
+
+.modal.modalCVEInfo table tbody tr:nth-child(even){
+  background-color: #b9b9b9;
+}
+
+.modal.modalCVEInfo table th{
+  vertical-align: top;
+  padding: 0;
+}
+
+.modal.modalCVEInfo table td{
+  text-align: left;
+  word-break: break-all;
+  padding: 0 5px;
+}
+
+.modal.modalCVEInfo table td a{
+  color: #0c4fa9;
+}
+
+.modal.modalCVEInfo ul{
+  margin: 0;
+  color: #244a20;
+}
+
+.modal.modalCVEInfo ul li{
+  list-style-type: disc;
+  padding-left: 10px;
+  margin: 0;
+  line-height: 20px;
+  width: 50%;
+  float: left;
+  word-break: break-all;
+}
